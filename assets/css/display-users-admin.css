@@ -1,0 +1,103 @@
+/**
+ * WP Display Users general Backend styles
+ * @package  DisplayUsers
+ * @version  2.0.0
+ * @author   Devnath verma <devnathverma@gmail.com>
+ */
+
+div.display_users_container {
+    float: left;
+    width: 100%;
+}
+
+div.display_users_container .display-users-wizard-form {
+	width: 100%;
+    float: left;
+    margin-top: 20px;
+}
+ 
+div.display_users_container #display-users-navigation {
+	float: left;
+    width: 100%;
+	margin-top: 15px;
+	margin-bottom: 15px;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+div.display_users_container #display-users-navigation li {
+	float: left;
+	margin: 0;
+}
+
+div.display_users_container #display-users-navigation li a {
+	display: block;
+	padding: 10px 20px;
+	font-size: 15px;
+	text-decoration: none;
+}
+
+div.display_users_container .display-users-nav-tab {
+    border: 1px solid #ccc;
+    border-bottom: none;
+    margin-left: .5em;
+    line-height: 1.71428571;
+    font-weight: 600;
+    background: #e5e5e5;
+    color: #555;
+    white-space: nowrap;
+}
+
+div.display_users_container .display-users-navigation-tab-active {
+	background: #ffffff;
+	color: #000;
+}
+
+div.display_users_container .display-users-nav-tab:hover {
+	background: #ffffff;
+	color: #000;
+}
+
+div.display_users_container .display-users-wizard-form input, div.display_users_container .display-users-wizard-form select {
+    padding: 0px 15px;
+    margin-bottom: 5px;
+    margin-top: 0px;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+	border: 1px solid #ccc;
+	max-width: 100%;
+}
+
+div.display_users_container .display-users-wizard-form input:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 1px solid #3498DB;
+    outline-width: 0;
+}
+
+div.display_users_container .display-users-wizard-form .action-button {
+    font-size: 15px;
+    background: #3498DB;
+    color: white;
+    border-radius: 0px;
+    cursor: pointer;
+    padding: 5px 15px;
+}
+
+div.display_users_container .display-users-wizard-form .action-button:hover, 
+div.display_users_container .display-users-wizard-form .action-button:focus {
+    background-color: #097FAA;
+}
+
+div.display_users_container .display-users-update, div.display_users_container .display-users-error {
+	-webkit-box-shadow: rgba(0, 0, 0, 0.0976563) 0px 0px 4px 2px;
+	background: white;
+	border-left: 3px solid #3498DB;
+	padding: 8px 0px 8px 10px;
+	float: left;
+	width: 100%;
+}
+
+div.display_users_container .display-users-error {
+	border-left: 3px solid #DD3D36;
+}

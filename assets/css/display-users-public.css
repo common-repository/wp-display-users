@@ -1,0 +1,70 @@
+/**
+ * WP Display Users general frontend styles
+ * @package  DisplayUsers
+ * @version  2.0.0
+ * @author   Devnath verma <devnathverma@gmail.com>
+ */
+
+.display-user-container { }
+
+.display-user-container img { max-width: 100%; }
+
+.display-user-container .display-user-container-inner {	border-bottom: 1px solid #ccc; padding-top: 1em; padding-bottom: 1em; }
+
+.display-user-container .display-user-container-inner:last-child { border-bottom:0; }
+
+.display-user-container .display-user-title { clear: none; vertical-align: middle; zoom: 1; }
+
+.display-user-container .avatar { border: 1px solid #ccc; padding: 2px; }
+
+.display-user-container .display-user-avatar-align-left .avatar { float: left; margin: 0 1em 0.2em 0; }
+
+.display-user-container .display-user-avatar-align-right .avatar { float: right; margin: 0 0 0 1em; } 
+
+.display-user-container .display-user-avatar-shape-square .avatar {
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	-ms-border-radius: 0;
+	-o-border-radius: 0;
+	border-radius: 0;
+}
+
+.display-user-container .display-user-avatar-shape-rounded .avatar {
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50% 
+}
+
+.display-user-container p.description { margin-top: 0px; margin-bottom: 5px; }
+
+.display-user-container span.display-user-icon { display: block; }
+
+.display-user-container .display-users-pagination { text-align:center; margin: 10px 0; }
+
+.display-user-container .display-users-pagination ul.page-numbers li { 
+	margin-bottom: 6px; 
+	display: inline-block; 
+	text-align:center; 
+	list-style:none; 
+}
+
+.display-user-container ul.page-numbers span.page-numbers, .display-user-container ul.page-numbers a.page-numbers, .display-users-pagination ul.page-numbers span.page-numbers, .display-users-pagination ul.page-numbers a.page-numbers {
+	background-color: #ebebeb;
+	color: #000000;
+	padding: 5px 15px;
+	text-decoration: none;
+}
+
+.display-user-container ul.page-numbers.current, .page-numbers:hover, .page-numbers:visited:hover { background: none; }
+
+.display-user-container ul.page-numbers a:hover, .display-users-pagination ul.page-numbers a:hover { 
+	background-color: #3498DB;
+  	color: #fff;
+}
+
+.display-user-container ul.page-numbers span.current, .display-users-pagination ul.page-numbers span.current {
+  	background-color: #3498DB;
+  	color: #fff;
+}
